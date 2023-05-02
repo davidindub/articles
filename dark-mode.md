@@ -1,6 +1,8 @@
 # Dark Mode using CSS Custom Properties
 
-There was a time when dark mode was a niche feature prefered by developers who spent long days staring at code on a screen. In 2023, 80% of people use their devices in dark mode so a web page that doesn't support it can be eye-searing!
+![](media/dark-mode-image.jpg)
+
+There was a time when dark mode was a niche feature preferred by developers who spent long days staring at code on a screen. Times have changed, and in 2023, 80% of people use their devices in dark mode. Landing on a web page that doesn't support it can be eye-searing!
 
 In this article, we'll explore how to implement dark mode using CSS custom properties and JavaScript for users who want to toggle it on and off.
 
@@ -126,6 +128,7 @@ checkbox.addEventListener("click", (e) => {
 
 Now the page will always load using the users system preference, but the option is there for them to flip between light and dark modes.
 
+You can see all of this in action [in a Codepen](https://codepen.io/davidindub/pen/bGmovOm).
 
 
 ### References
