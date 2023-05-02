@@ -1,9 +1,14 @@
 # Dark Mode using CSS Custom Properties
 
+There was a time when dark mode was a niche feature prefered by developers who spent long days staring at code on a screen. In 2023, 80% of people use their devices in dark mode so a web page that doesn't support it can be eye-searing!
 
-CSS custom properties (sometimes called CSS variables) allow us to define values we want to reuse throughout a stylesheet.
+In this article, we'll explore how to implement dark mode using CSS custom properties and JavaScript for users who want to toggle it on and off.
 
-A common use case is to define your color palette on the `:root` pseudo-class. This gives the variables global scope, as we're setting them as high up the cascade as they can go.
+***
+
+CSS custom properties (sometimes called variables) allow us to define values we want to reuse throughout a stylesheet.
+
+We'll define a simple color palette on the `:root` pseudo-class. This gives the variables global scope, as we're setting them as high up the cascade as they can go.
 
 Here we're setting a pure white background with dark grey text.
 
@@ -120,3 +125,11 @@ checkbox.addEventListener("click", (e) => {
 ```
 
 Now the page will always load using the users system preference, but the option is there for them to flip between light and dark modes.
+
+
+
+### References
+
+[Increditools - Dark Mode Usage Statistics 2023: How Popular Is It?](https://increditools.com/dark-mode-usage-statistics/)
+
+[MDN Web Docs - Using CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
