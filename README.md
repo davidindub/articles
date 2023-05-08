@@ -1,4 +1,6 @@
-Repo for working on coding articles
+Repo for working on coding articles.
+
+Publishing these articles at [Codú](https://www.codu.co/davidindub).
 
 
 ## Articles 
